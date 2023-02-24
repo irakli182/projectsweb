@@ -42,6 +42,8 @@ body {
     flex-direction: column;
     align-items: center;
     transition: 0.3s;
+    border-style: solid;
+    border-color: rgba(0, 255, 255, 0.356);
 }
 
 .project:hover {
@@ -93,6 +95,10 @@ body {
 
 }
 
+#rect {
+    width: 280px;
+}
+
 .reactimg {
     width: 300px;
     position: absolute;
@@ -108,7 +114,8 @@ body {
 }
 
 #project6 {
-    visibility: hidden;
+    border-style: solid;
+    border-color: red;
 }
 
 @media only screen and (max-width: 1570px) {
@@ -125,12 +132,40 @@ body {
         gap: 3rem;
         padding-top: 50px;
     }
+
+    .project:hover {
+        scale: 1;
+        transition: 0.3s;
+    }
 }
 
 
 @media only screen and (max-width: 442px) {
     .project {
-        width: 300px;
+        width: 280px;
+    }
+
+    #onimask {
+        width: 280px;
+    }
+
+    .project:hover {
+        scale: 1;
+        transition: 0.3s;
+    }
+
+    .reactimg {
+        width: 280px;
+        position: absolute;
+        opacity: 0.1;
+        padding-top: 20px;
+    }
+
+    .shopimg {
+        position: absolute;
+        width: 280px;
+        z-index: 1;
+        padding-top: 10px;
     }
 
     .name {
