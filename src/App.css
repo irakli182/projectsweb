@@ -107,6 +107,10 @@ body {
     padding-top: 10px;
 }
 
+#project6 {
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 1570px) {
 
     .projectsdiv {
@@ -122,6 +126,7 @@ body {
         padding-top: 50px;
     }
 }
+
 
 @media only screen and (max-width: 442px) {
     .project {

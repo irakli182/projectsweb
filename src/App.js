@@ -3,6 +3,7 @@ import python from "./images/python.png"
 import react from "./images/react.png"
 import shop from "./images/shop.png"
 import triangle from "./images/triangle.png"
+import mask from "./images/mask.png"
 
 function App() {
   return (
@@ -54,6 +55,26 @@ function App() {
             <button className='button'>CLICK</button>
           </a>
         </div>
+
+        <div className='project' id='project5' >
+          <img id='onimask' className='pythonimg' src={mask}></img>
+          <p className='name'>Tic Tac Toe</p>
+          <p className='desc'>Impossible to win Tic Tac Toe game i've written using javascript</p>
+          <a className='anchor' href='https://tictactoe-irakli.vercel.app/' target='_blank'>
+            <button className='button'>CLICK</button>
+          </a>
+        </div>
+
+        <div className='project' id='project6' >
+          <img className='pythonimg' src={mask}></img>
+          <p className='name'>Tic Tac Toe</p>
+          <p className='desc'>Impossible to win Tic Tac Toe game i've written using javascript</p>
+          <a className='anchor' href='https://tictactoe-irakli.vercel.app/' target='_blank'>
+            <button className='button'>CLICK</button>
+          </a>
+        </div>
+
+        
 
       </div>
 
