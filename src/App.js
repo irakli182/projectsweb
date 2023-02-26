@@ -75,7 +75,22 @@ function App() {
           </a>
         </div>
 
-        
+      
+      </div>
+
+
+        <div className='projectsdiv2'>
+
+        <div className='project' id='project7' >
+          <img className='pythonimg' src={react}></img>
+          <p className='name'>Second portfolio</p>
+          <p className='desc'>My other personal portfolio i've built using reactJS</p>
+          <a className='anchor' href='https://portf2-irakli182.vercel.app/' target='_blank'>
+            <button className='button'>CLICK</button>
+          </a>
+        </div>
+
+
 
       </div>
 

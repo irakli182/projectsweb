@@ -118,6 +118,20 @@ body {
     border-color: red;
 }
 
+.projectsdiv2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+
+#project7 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 1570px) {
 
     .projectsdiv {
@@ -131,11 +145,22 @@ body {
         align-items: center;
         gap: 3rem;
         padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .projectsdiv2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
     }
 
     .project:hover {
         scale: 1;
         transition: 0.3s;
+    }
+
+    #project5 {
+        height: 320px;
     }
 }
 
